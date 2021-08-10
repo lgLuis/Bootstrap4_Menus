@@ -9,14 +9,101 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+    <header class="site-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h1 class="align-middle text-center text-lg-left">
+                        Aprendiendo Bootstrap 4
+                    </h1>
+                    <p class="display-2 text-center text-lg-left">
+                        Aprende HTML5 + CCS3 + JS 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <h2 class="lecture-title">Menús</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12" id="navs">
+                <h2>Menu horizontal</h2>
+                <nav>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+
+                <h2>Pills</h2>
+                <nav>
+                    <ul class="nav nav-pills justify-content-center">
+                        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+
+                <h2>Dropdowns</h2>
+                <nav>
+                    <ul class="nav nav-pills justify-content-center">
+                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" 
+                            data-toggle="dropdown" 
+                            aria-haspopup="true"
+                            role="button"
+                            aria-expanded="false" 
+                            href="#">Servicios
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">A 001</a>
+                                <a href="#" class="dropdown-item">A 002</a>
+                                <a href="#" class="dropdown-item">A 003</a>
+                                <a href="#" class="dropdown-item">A 004</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+
+
+                <h2>Menu vertical </h2>
+                <nav>
+                    <ul class="nav flex-column justify-content-center">
+                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+
+                <h2>Tabs</h2>
+                <nav>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
 
 
 
 
 
-    <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery.js"></script>
     <script src="/js/popper.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <script src="/js/scripts.js"></script>
     
 </body>
